@@ -8,8 +8,6 @@ class ListNode:
         self.val = val
         self.next = next
 class Solution:
-   
-    
     # define Optional
     # print list, print out all values in the linked list
     def printList(self, head):
