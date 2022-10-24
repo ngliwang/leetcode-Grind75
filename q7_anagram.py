@@ -1,3 +1,6 @@
+from typing import Counter
+
+
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         # sort the strings
@@ -9,6 +12,9 @@ class Solution:
             return True
         else:
             return False
+
+    def isAnagram_dict(self, s:str, t:str) -> bool:
+        return Counter(s) == Counter(t)
     
 if __name__ == "__main__":
     s = Solution()
